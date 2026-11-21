@@ -1,0 +1,12 @@
+# Generated / installed
+engine/.venv/
+engine/__pycache__/
+engine/tests/__pycache__/
+app/.build/
+app/build/
+*.part
+.DS_Store
+
+# Test media and personal recordings (listening test includes private footage).
+# Rebuild the test clips with engine/tests/make_samples.py.
+samples/
